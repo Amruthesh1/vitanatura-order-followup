@@ -1,0 +1,26 @@
+VITANATURA FINAL TEST CHECKLIST
+
+Before submission:
+[ ] Run: pip install -r requirements.txt
+[ ] Run: streamlit run app.py
+[ ] Upload vitanatura_sample_orders.xlsx
+[ ] Confirm 120 rows, 105 eligible rows, 15 needing correction
+[ ] Run exception rules using fixed time 2026-10-19 12:00
+[ ] Confirm five exception categories appear
+[ ] Download exception CSV
+[ ] Save exceptions to task database
+[ ] Change one task from Open to In Progress
+[ ] Reassign one task to another employee
+[ ] Check audit trail for both changes
+[ ] Refresh browser and verify changes persist
+[ ] Re-upload same data / save again and verify task count does not increase
+[ ] Download daily task report CSV
+[ ] Confirm README and all three Python modules are in project folder
+[ ] Keep vitanatura_tasks.db in project folder
+[ ] Submit source code, sample data, README and demo
+
+Live interview scenarios from assessment:
+1. Upload a new dataset containing errors and show validation.
+2. Change dispatch deadline from 24 hours to 12 hours and rerun.
+3. Explain duplicate-task prevention.
+4. Reassign an overdue task and show audit history.

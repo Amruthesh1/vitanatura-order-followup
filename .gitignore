@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.streamlit/secrets.toml
+
+# Local database
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Temporary files
+*.tmp
+
+# Editor files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+Check,Result
+Total rows uploaded,120
+Required columns missing from file,0
+Rows with missing mandatory fields,4
+Rows with invalid dates,1
+Rows with invalid/negative order values,0
+Rows involved in duplicate Order IDs,10
+Rows with conditional data issues,0
+Rows needing data correction (unique rows),15
+Rows eligible for rule evaluation,105
